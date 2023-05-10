@@ -1,0 +1,45 @@
+.layout_a {
+    min-height: 100vh;
+}
+
+.layout_sider {
+    position: fixed;
+    height: 100vh;
+    left: 0;
+}
+
+.layout_content {
+    margin-left: 200px;
+    transition: all 0.2s;
+}
+
+.ant-layout-sider-collapsed+.layout_content{
+    margin-left: 80px;
+}
+
+.layout_header {
+    position: fixed;
+    z-index: 100;
+    padding: 0;
+    height: 50px;
+    line-height: 50px;
+    width: calc(100% - 200px);
+    padding: 0 20px;
+    background: #fff;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.08);
+    transition: all 0.2s;
+}
+.layout_header_collapsed{
+    width: calc(100% - 80px);
+}
+
+.a_layout_content_b {
+    margin: 60px 10px 10px;
+}
+
+.admin_layouts {
+    padding: 10px;
+    background: #fff;
+    min-height: 100%;
+    overflow: auto;
+}
